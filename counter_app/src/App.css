@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 250px;
+  -webkit-user-select: none;
+}
+
+.App {
+  /* color: white;*/
+  display: flex; 
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  /* justify-content: center;
+  gap: 40px;
+  font-size: 40px; */
+}
+
+.comps{
+  color: white;
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 40px;
+}
+
+.button {
+  width: 90px;
+  height: 90px;
+  border-radius: 20%;
+  font-size: 45px;
+  color: black;
+  background-color: #f2a33c;
+  cursor: pointer;
+}
+
+.button:hover, .btn2:hover {
+  background-color: orange;
+}
+
+.btn2 {
+  width: 200px;
+  height: 100px;
+  border-radius: 30px;
+  margin-top: -50px;
+  font-size: 35px;
+  color: black;
+  background-color: #f2a33c;
+  cursor: pointer;
+}

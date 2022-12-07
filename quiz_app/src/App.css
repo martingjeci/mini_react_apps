@@ -1,0 +1,64 @@
+body {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-user-select: none;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(5, 5, 44);
+  border-radius: 10%;
+  width: 500px;
+  height: 300px;
+  margin-top: 200px;
+}
+
+.questionNr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+}
+
+.question {
+  color: white;
+  font-size: 25px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+.upper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  
+}
+
+.lower{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.b {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(5, 5, 44);
+  color: white;
+  border : 3px solid cadetblue;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.b:hover {
+  background-color: cadetblue;
+}

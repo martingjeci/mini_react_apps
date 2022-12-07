@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+    font-size: 20px;
+    color: white;
+}
+
+.input-bar {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+p {
+    margin: 20px;
+}
